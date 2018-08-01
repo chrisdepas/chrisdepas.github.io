@@ -1,0 +1,4 @@
+<p>This was a cheat for the free-to-play game Robocraft.
+The game uses Unity Engine, which uses Mono’s C# Runtime and was protected with Easy Anti-Cheat.
+Easy Anti-Cheat protects against DLL injection. To bypass this I replaced the Steam API DLL with my own, which exported the same functions, and would call exported Mono functions to load my malicious C# executable.
+The payload referenced Unity Engine and game libraries to display a simple GUI in-game, and modify the local player’s position and weapon stats.</p>
